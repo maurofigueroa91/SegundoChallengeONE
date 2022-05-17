@@ -202,8 +202,7 @@ canvas{
     margin: 0 2rem;
     font-size: 18px;
     border-radius: 50px;
-    background-image: url(/img/oeste.jpg);
-    background-image: url(img/oeste.jpg);
+    background-image: url(../img/oeste.jpg);
     border: 2px solid black;
     color: white;
     font-weight: bolder;
@@ -242,8 +241,8 @@ canvas{
 }
 
 .btn-iniciar, .btn-agregar{
-    background-image: url(/img/oeste.jpg);
-    background-image: url(img/oeste.jpg);
+    background-image: url(../img/oeste.jpg);
+    
     width: 20%;
     height: 4rem;
     margin: 10px;
@@ -320,8 +319,8 @@ canvas{
     outline: none;
     font-size: 18px;
     font-weight: bolder;
-    background-image: url(/img/oeste.jpg);
-    background-image: url(img/oeste.jpg);
+    background-image: url(../img/oeste.jpg);
+ 
     cursor: pointer;
 }
 
