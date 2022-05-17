@@ -4,6 +4,7 @@ var botonAceptar = document.querySelector(".btn-aceptar");
 var botonCancelar = document.querySelector(".btn-cancelar");
 
 
+
 var seccion1 = document.querySelector(".seccion1");
 var seccion2 = document.querySelector(".seccion2");
 
@@ -54,10 +55,13 @@ function vaciarEntrada(){
 function mostrarFormulario(){
     var formulario = document.querySelector(".contenedor-texto");
     formulario.classList.add("mostrar");
+    formulario.classList.remove("ocultar2");
+    
 }
 
 function ocultarFormulario(){
     var formulario = document.querySelector(".contenedor-texto");
     formulario.classList.remove("mostrar");
+    formulario.classList.add("ocultar2");
     vaciarEntrada();
 }
