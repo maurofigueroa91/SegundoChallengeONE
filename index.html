@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <title>Juego del ahorcado</title>
+</head>
+
+<body>
+   <img src="img/oeste.jpg" alt="">
+    <header>
+        <h1>Ahorcado</h1>
+    </header>
+
+    <main>
+        <section class="seccion1 ocultar">
+
+            <div class="contenedor-canvas ">
+                <img src="img/ZanyFirstAmericancrow-size_restricted.gif" alt="">
+                <canvas></canvas>
+            </div>
+
+            <div class="contenedor-letras-bien">
+
+            </div>
+            <div class="contenedor-letras-mal">
+
+            </div>
+
+            <div class="teclas ocultar">
+                <img src="img/icons8-teclado-48 (1).png" alt="teclado" class="teclado">
+                <div class="teclado-pantalla ocultar">
+
+                    <div class="primer-fila">
+                        <div class="key">Q</div>
+                        <div class="key">W</div>
+                        <div class="key">E</div>
+                        <div class="key">R</div>
+                        <div class="key">T</div>
+                        <div class="key">Y</div>
+                        <div class="key">U</div>
+                        <div class="key">I</div>
+                        <div class="key">O</div>
+                        <div class="key">P</div>
+                    </div>
+                    
+                    <div class="segunda-fila">
+                        <div class="key">A</div>
+                        <div class="key">S</div>
+                        <div class="key">D</div>
+                        <div class="key">F</div>
+                        <div class="key">G</div>
+                        <div class="key">H</div>
+                        <div class="key">J</div>
+                        <div class="key">K</div>
+                        <div class="key">L</div>
+                        <div class="key">Ñ</div>
+                    </div>
+
+                    <div class="tercer-fila">
+                        <div class="key">Z</div>
+                        <div class="key">X</div>
+                        <div class="key">C</div>
+                        <div class="key">V</div>
+                        <div class="key">B</div>
+                        <div class="key">N</div>
+                        <div class="key">M</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenedor-botones">
+                <input type="button" class="btn-nuevo" value="Nuevo juego!">
+                <input type="button" class="btn-desistir" value="Desistir">
+            </div>
+        </section>
+
+        <section class="seccion2">
+
+            <div class="contenedor-botones-inicio">
+                <input type="button" class="btn-iniciar" value="Iniciar juego">
+                <input type="button" class="btn-agregar" value="Agregar palabra">
+            </div>
+
+            <div class="contenedor-texto">
+                <div class="fondo-negro">
+                    <div class="contenedor-logo">
+                        <a href="https://www.aluracursos.com/" target="_blank"><img src="img/Logo.png" alt="Logo de Alura" class="logo"></a>
+                    </div>
+                    <input type="text" class="entrada-texto" placeholder="..." maxlength="8">
+                    <div class="contenedor-botones-agregar">
+                        <div class="botones-form">
+                            <input type="button" class="btn-aceptar" value="Aceptar">
+                        </div>
+                        <div class="botones-form">
+                            <input type="button" class="btn-cancelar" value="Cancelar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+
+        <div class="contenedor-footer">
+            <a href="https://app.aluracursos.com/user/figueroa-mauro" target="_blank"><h4>Created by FM-Developer</h4></a>
+        </div>
+    </footer>
+
+    <script src="js/funciones.js"></script>
+    <script src="js/listaNombres.js"></script>
+    <script src="js/canvas.js"></script>
+    <script src="js/inicio.js"></script>
+    <script src="js/principal.js"></script>
+</body>
+</html>
