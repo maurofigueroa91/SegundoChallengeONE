@@ -19,7 +19,11 @@ body{
     box-sizing: border-box;
     position: relative;
     min-height: 100vh;
+    user-select: none;
+    -webkit-user-select: none;
 }
+
+
 
 body > img{
     width: 100%;
